@@ -48,7 +48,3 @@ jobs:
           echo "MONGODB_DB_NAME: $MONGODB_DB_NAME"
           echo "MONGODB_USERNAME: $MONGODB_USERNAME"
           echo "${{ env.PORT }}"
-
-# panda
-# 4eJeMNFNx87BzbmN
-# mongodb+srv://panda:<password>@testing-db.v4vm2cc.mongodb.net
