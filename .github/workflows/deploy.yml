@@ -13,6 +13,12 @@ jobs:
   test:
     environment: testing # referenced in GH
     runs-on: ubuntu-latest
+    # has to be a name of an image in docker hub
+    # container: node:16 OPT1
+    container:
+      image: node:16 # OPT2
+      # envs required for the container / image
+      # env:
     env:
       MONGODB_CONNECTION_PROTOCOL: mongodb+srv
       MONGODB_CLUSTER_ADDRESS: testing-db.v4vm2cc.mongodb.net
