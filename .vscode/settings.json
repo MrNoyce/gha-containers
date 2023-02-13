@@ -1,0 +1,6 @@
+{
+	"window.zoomLevel": -0.75,
+	"yaml.schemas": {
+		"https://json.schemastore.org/github-workflow.json": "file:///Users/mrhorror/Desktop/pg/udemy/gha/gha-containers/.github/workflows/deploy.yml"
+	}
+}
